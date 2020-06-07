@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+            body{
+                background-color : rgb(0,255,255);
+                text-align : center;
+            }
+            h1{
+                color : rgb(255,255,0);
+                font-size : 50px;
+            }
+            h2{
+                font-family : sans-serif;
+            }
+            h3{}
+            ul{
+                
+                text-align: left ; 
+            }
+            li{}
+            #contenttable{
+                text-align : left;
+            }
+            #post1{
+                font-size : 25px;
+            }
+            #post2{
+                font-size : 25px;
+            }
+            #post3{
+                font-size : 25px;
+            }
+            /*add a #postX{} with every post in the blog*/
+            .indexlink{}
+            .blogpostentry{
+                font-family: cursive;
+            }
+            .nextpost{}
+            .previouspost{}
+            .backtostart{}
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>MaartenDP's blog</h1>
+
+        <h3 id = "contenttable">Contents</h3>
+        <ul>
+        <!---content entry example : <li><a href = "#postid"class="indexlink">postname</a></li>--->
+            <li><a href = "#post1" class="indexlink">First post!</a></li>
+            <li><a href = "#post2" class="indexlink">tempering ambition</a></li>
+            <li><a href = "#post3" class="indexlink">getting ideas</a></li>
+        </ul>
+<!---this is a blog post template--->
+<!----<h2 id="postX">some post title</h2>
+        <h6 class = "postdate">Posted on day of month in year</h6>
+        <p class = "blogpostentry">blog post text
+        </p>
+        <a class = "previouspost" href = "#postX-1"><img src="https://www.kasandbox.org/programming-images/space/minus.png" alt ="previous" width = "20"></a> 
+<a href = "#postX+1"><img src="https://www.kasandbox.org/programming-images/space/plus.png" alt ="next" width = "20"></a>  --->
+        
+        <h2 id ="post1">First post</h2>
+        <h6 class = "postdate">Posted on 5th of June in 2020</h6>
+        
+        <p class = "blogpostentry">So this is where it al starts, the first blog post on my route to becomming a valueable asset to some high profile company.<br>
+            Today I'm making this silly blog thing, tommorow my apps will spread like covid around the world and earn me piles of money, gold bars and diamonds.<br>
+            This they will enter history as the day it al begon.
+        </p>
+<a href = "#post2"><img src="https://www.kasandbox.org/programming-images/space/plus.png" alt ="next" width = "20"></a> 
+        <h2 id ="post2">tempering ambitions</h2>
+        <h6 class = "postdate">Posted on 5th of June in 2020</h6>
+        
+        <p class = "blogpostentry">okay, maybe my firts plan is a bit to high level to accomplish for a person with a family.<br>
+        How About I start by introducing myself.  I'm a nearly 40 year old husband to a wonderfull <em>(I swear she didn't force me to write that under treath of cough sleeping)</em> wife, and father to two wonderful boys <strong>Brent</strong> who was born in 2009 and <strong>Boris</strong> who was born in 2016.  <br>
+        I'm currently working as a support engineer, but as stated in the first post, I have recently developed new ambitions. <br>
+        Anyway, thanx for reading and pardon my English, it's not my native language, that would be <em>dutch</em>, so You'll probably find grammar and spelling errors all over the place.
+        </p>
+<a class = "previouspost" href = "#post1"><img src="https://www.kasandbox.org/programming-images/space/minus.png" alt ="previous" width = "20"></a> 
+<a href = "#post3"><img src="https://www.kasandbox.org/programming-images/space/plus.png" alt ="next" width = "20"></a> 
+        <h2 id="post3">getting ideas</h2>
+        <h6 class = "postdate">Posted on 6th of June in 2020</h6>
+        <p class = "blogpostentry">getting ideas from everywhere now.<br> 
+        I'll start ordering them later, but tonight I came to the conclusion that I need some projects to help study and get better in this web development thing.<br>
+        So this is going to be the start of a project, part of a bigger page with some info about me, my family and the things I'll create during this course (and other courses).<br>
+        but for now, I'll start with adding previous and next post links.  <br> So let's get started.
+        </p>
+       <a class = "previouspost" href = "#post2"><img src="https://www.kasandbox.org/programming-images/space/minus.png" alt ="previous" width = "20"></a> 
+        <a href = "#post2" class = "next post"><img src="https://www.kasandbox.org/programming-images/space/plus.png" alt ="next" width = "20"></a> 
+           <br>
+    <br>
+    <a class = "backtostart" href = "#contenttable">please let me start over again</a> 
+    </body>
+ 
+</html>
